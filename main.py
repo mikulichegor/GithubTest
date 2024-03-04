@@ -24,12 +24,12 @@ def menu():
         c = int(input('напишите гипотенузу'))
 
         sinA = a/c
-        print(sinA)
+        print(f'sin = {sinA}')
 
     elif answer == 'cos':
         pass
     elif answer == 'tg':
         pass
-
+`
 menu()
 
