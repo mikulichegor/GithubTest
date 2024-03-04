@@ -20,7 +20,10 @@ def menu():
     elif answer == 'sin':
         pass
     elif answer == 'cos':
-        pass
+        a = int(input('Сторона A:'))
+        b = int(input('Сторона B:'))
+        c = int(input('Сторона C:'))
+        print(float((a**2 + b**2 - c**2)/(2 * a * b)))
     elif answer == 'tg':
         pass
 
