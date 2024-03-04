@@ -19,8 +19,17 @@ def menu():
         num=int(input("Ввидите число: "))
         sqrt=num ** 0.5
         print(f'корень из {num} равен {sqrt}')
+
+
     elif answer == 'sin':
-        pass
+
+        a = int(input('напишите первый катет'))
+
+        c = int(input('напишите гипотенузу'))
+
+        sinA = a/c
+        print(f'sin = {sinA}')
+
     elif answer == 'cos':
         a = int(input('Сторона A:'))
         b = int(input('Сторона B:'))
@@ -30,4 +39,6 @@ def menu():
         pass
 
 menu()
-print('привет')
+
+
+        
