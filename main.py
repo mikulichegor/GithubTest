@@ -30,4 +30,4 @@ def menu():
         pass
 
 menu()
-
+print('привет')
