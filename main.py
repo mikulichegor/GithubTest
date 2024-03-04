@@ -2,7 +2,7 @@ def menu():
 
     answer = input('Выберите действие:\n+ - сложение\n- - вычитание\n* - умножение\n'
                    '/ - деление\n** - возведение в степень\n% - остаток от деления\n корень - корень\n'
-                   'sin - синус\ncos - косинус\ntg - тангенс')
+                   'sin - синус\ncos - косинус\ntg - тангенс:')
     if answer == '+':
         pass
     elif answer == '-':
@@ -10,7 +10,7 @@ def menu():
     elif answer == '*':
         pass
     elif answer == '/':
-        pass
+        delenie()
     elif answer == '**':
         pass
     elif answer == '%':
@@ -23,6 +23,13 @@ def menu():
         pass
     elif answer == 'tg':
         pass
+
+def delenie():
+    num_1 = int(input('Введите первое число: '))
+    num_2 = int(input('Введите второе число: '))
+    result = num_1/num_2
+    print(f'Ответ: {result}')
+
 
 menu()
 
