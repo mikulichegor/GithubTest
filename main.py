@@ -16,7 +16,9 @@ def menu():
     elif answer == '%':
         pass
     elif answer == 'корень':
-        pass
+        num=int(input("Ввидите число: "))
+        sqrt=num ** 0.5
+        print(f'корень из {num} равен {sqrt}')
     elif answer == 'sin':
         pass
     elif answer == 'cos':
